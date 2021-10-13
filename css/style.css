@@ -10,7 +10,7 @@ body {
     font-family: "Whitney",sans-serif;
 }
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 .col {
@@ -113,9 +113,19 @@ header {
 }
 
 /* MAIN */
+.col-right {
+    float: right;
+}
 .col-img {
-
+    width: 72%;
 }
 .col-text {
-
+    width: 28%;
+}
+.col-text h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+main section {
+    padding: 80px 0;
 }
