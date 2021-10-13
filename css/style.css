@@ -61,6 +61,10 @@ body {
     color: white;
     background-color: #23272a;
 }
+.btn-sugarpaper {
+    color: white;
+    background-color: #8ea1e1;
+}
 .btn-large .btn-white span {
     font-size: 20px;
 }
@@ -144,6 +148,7 @@ main section {
 
 /* Section 4 */
 .box-end {
+    position: relative;
     text-align: center;
 }
 .box-end h3 {
@@ -152,4 +157,23 @@ main section {
 .box-text {
     width: 77%;
     margin: auto;
+}
+.box-end h5 {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 50px;
+}
+.box-end a {
+    display: block;
+    width: 180px;
+    position: absolute;
+    left:41%;
+    bottom: 0;
 }
