@@ -24,6 +24,9 @@ body {
 .img {
     width: 100%;
 }
+.col-right {
+    float: right;
+}
 
 /* TITLE TEXT */
 .title {
@@ -100,6 +103,7 @@ header {
 }
 .login {
     text-align: end;
+    float: right;
 }
 .nav {
     height: 50px;
@@ -117,9 +121,6 @@ header {
 }
 
 /* MAIN */
-.col-right {
-    float: right;
-}
 .col-img {
     width: 72%;
 }
@@ -176,4 +177,52 @@ main section {
     position: absolute;
     left:41%;
     bottom: 0;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 120px;
+    background-color: #23272a;
+}
+.end-menu {
+    padding: 30px 0;
+}
+.col-social {
+    width: 40%;
+
+    /* test */
+    height: 200px;
+    background-color: white;
+}
+.col-prodotto {
+    width: 15%;
+
+    /* test */
+    background-color: violet;
+    height: 200px;
+}
+.col-compagnia {
+    width: 15%;
+
+    /* test */
+    background-color: brown;
+    height: 200px;
+}
+.col-risorse {
+    width: 15%;
+
+    /* test */
+    background-color: pink;
+    height: 200px;
+}
+.col-norme {
+    width: 15%;
+
+    /* test */
+    background-color: greenyellow;
+    height: 200px;
+}
+hr {
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
