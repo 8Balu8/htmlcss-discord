@@ -9,3 +9,49 @@
 body {
     font-family: "Whitney",sans-serif;
 }
+.container {
+    width: 70%;
+    margin: auto;
+}
+.col {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.img {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    height: 450px;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo, .login {
+    width: 10%;
+}
+.logo img {
+    vertical-align: middle;
+}
+.menu {
+    width: 80%;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+}
+.login {
+    text-align: end;
+}
+.nav {
+    height: 50px;
+    line-height: 50px;
+}
