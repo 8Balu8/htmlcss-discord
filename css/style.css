@@ -129,3 +129,15 @@ header {
 main section {
     padding: 80px 0;
 }
+
+/* Section Two */
+.col-text-two {
+    width: 28%;
+}
+.col-text-two h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.col-img-two {
+    width: 60%;
+}
