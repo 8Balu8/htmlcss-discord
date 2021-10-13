@@ -25,6 +25,20 @@ body {
     width: 100%;
 }
 
+/* BUTTON */
+.btn-small {
+    display: inline-block;
+    line-height: normal;
+    padding: 6px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.btn-white {
+    color: black;
+    background-color: white;
+}
+
 /* HEADER */
 header {
     height: 450px;
@@ -47,6 +61,10 @@ header {
     text-decoration: none;
     margin: 0 10px;
     color: white;
+    font-size: 14px;
+}
+.menu a:first-child {
+    padding-left: 60px;
 }
 .login {
     text-align: end;
@@ -54,4 +72,9 @@ header {
 .nav {
     height: 50px;
     line-height: 50px;
+}
+.jumbotron {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
