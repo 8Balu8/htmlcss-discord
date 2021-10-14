@@ -171,13 +171,6 @@ main section {
     background-size: contain;
     line-height: 50px;
 }
-.box-end a {
-    display: block;
-    width: 180px;
-    position: absolute;
-    left:41%;
-    bottom: 0;
-}
 
 /* FOOTER */
 footer {
